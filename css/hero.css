@@ -1,0 +1,24 @@
+.hero-section {
+  height: 340px;
+  background-image: url("/icon-logo/hero_image.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  width: 92%;
+  height: 35px;
+  background-color: #fff;
+  font-size: 14px;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text a {
+  text-decoration: none;
+  color: #007185;
+}

@@ -1,0 +1,237 @@
+nav {
+  height: 60px;
+  background-color: #0f1111;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-logo {
+  margin-left: 0.8rem;
+  cursor: pointer;
+}
+
+.nav-logo,
+.nav-address {
+  height: 60px;
+  width: 113px;
+  display: flex;
+  align-items: center;
+  border: 1px solid transparent;
+}
+
+.border:hover {
+  border: 1px solid #fff;
+  transition: border 0.15s;
+}
+
+.logo {
+  height: 55px;
+  width: 113px;
+  background-image: url("/icon-logo/amazon_logo.png");
+  background-size: cover;
+  border: 1px solid transparent;
+}
+
+/* ------- Box 2-------------- */
+
+.nav-address {
+  margin-left: 5px;
+  padding-left: 2px;
+  height: 55px;
+  cursor: pointer;
+}
+
+.location {
+  margin-top: 0.8rem;
+}
+
+.first {
+  color: #cccccc;
+  font-size: 0.7rem;
+  margin-left: 0.3rem;
+}
+
+.sec {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-left: 0.3rem;
+}
+
+/*---------------- Box 3 -------------- */
+
+.nav-search {
+  width: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 40px;
+  align-items: center;
+  outline: none;
+  border: 2px solid transparent;
+}
+
+.nav-search:hover {
+  border: 2px solid rgb(255, 115, 0);
+  border-radius: 6.8px;
+}
+.search-select {
+  background-color: #f3f3f3;
+  width: 55px;
+  border: none;
+  height: 40px;
+  text-align: center;
+  border-right: 1px solid rgb(199, 199, 199);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  cursor: pointer;
+}
+
+.search-input {
+  flex: 1;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}
+
+.search-icon {
+  width: 49px;
+  height: 40px;
+  background-color: #ecb03f;
+  color: #000;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.search-icon:hover {
+  background-color: #f0a51a;
+}
+
+/* ************* Box 4 ****************** */
+
+.nav-account {
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 4px;
+}
+
+.nav-account .hello {
+  font-size: 12px;
+}
+
+.nav-account .account {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* --------------Box 5-------------------- */
+
+.nav-returns {
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4px 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.return {
+  font-size: 12px;
+}
+
+.others {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* ************ Box 6 ****************** */
+
+.nav-cart {
+  font-size: 30px;
+  display: flex;
+  height: 55px;
+  align-items: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+  padding: 0 0.7rem;
+}
+
+.nav-cart .cart {
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 0.7rem;
+}
+
+/***********************  panel ********************** */
+
+.panel {
+  height: 40px;
+  background-color: #1c2e2ef3;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.ham-all {
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  height: 37px;
+  width: 50px;
+  gap: 0.6rem;
+  align-items: center;
+  border: 1px solid transparent;
+  padding-left: 8px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.yo:hover {
+  border: 1px solid #fff;
+  transition: all 0.15s;
+}
+
+.ham {
+  font-size: 18px;
+  margin-top: 0.37rem;
+}
+
+.all {
+  font-size: 14px;
+}
+
+.panel-list ul {
+  display: flex;
+}
+
+.panel-list ul li {
+  list-style-type: none;
+}
+
+.panel-list ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 550;
+  padding: 10.5px 8px;
+  width: auto;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+/* ****** panel end *********** */

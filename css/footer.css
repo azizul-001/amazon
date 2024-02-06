@@ -1,0 +1,238 @@
+footer {
+  color: #ddd;
+  height: 650px;
+  background-color: #232f3e;
+}
+
+.foot-panel {
+  color: #fff;
+  height: 49px;
+  font-size: 13px;
+  background-color: #37475a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.foot-panel:hover {
+  background-color: rgba(255, 255, 255, 0.14);
+  transition: all 0.15s;
+}
+
+.foot-panel2 {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 12.54rem;
+  position: relative;
+}
+
+.gap {
+  margin-bottom: 0.6rem;
+  cursor: pointer;
+}
+
+.gap:hover {
+  text-decoration: underline;
+  transition: all 0.2s;
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.hdg {
+  margin-bottom: 0.6rem;
+}
+
+/************* PANEL 3 ************** */
+
+.foot-panel3 {
+  height: 160px;
+  border-top: 1px solid #dddddd2f;
+  padding-bottom: 1rem;
+}
+
+.footer-logo {
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.footer-logo img {
+  width: 100%;
+}
+
+.languege-select {
+  display: flex;
+  height: 30px;
+  width: 80px;
+  padding: 0 8px;
+  font-size: 14px;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid #ffffff7a;
+  border-radius: 2.8px;
+}
+
+.languege-select p {
+  font-size: 13px;
+}
+
+.logo-lan {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.info-n {
+  display: flex;
+  justify-content: center;
+}
+
+.anchor-div {
+  width: 90%;
+}
+
+.anchor-div ul li a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 14px;
+}
+
+.anchor-div ul li a:hover {
+  text-decoration: underline;
+  transition: all 0.15s;
+}
+
+.anchor-div ul li {
+  list-style-type: none;
+  padding: 0 11px 5px;
+}
+
+.anchor-div ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/******************** Panel 4 *******************/
+
+.foot-panel4 {
+  background-color: #131a22;
+  font-size: 12px;
+  color: #fff;
+  padding: 2rem 0 2rem 11rem;
+}
+
+.amazon-service-info {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 1.8rem;
+}
+
+.one p {
+  line-height: 14px;
+}
+
+.ho {
+  color: #fff;
+  font-weight: 600;
+}
+
+.yott:hover {
+  text-decoration: underline;
+  border: none;
+  transition: all 0.15s;
+}
+
+.yott {
+  cursor: pointer;
+  display: block;
+}
+
+.comn {
+  color: #999;
+}
+
+.one {
+  width: 72px;
+}
+
+.two {
+  width: 125px;
+}
+
+.three {
+  width: 80px;
+}
+
+.four {
+  width: 80px;
+}
+
+.five {
+  width: 80px;
+}
+
+.six {
+  width: 85px;
+}
+
+.seven {
+  width: 125px;
+}
+
+.eight {
+  width: 110px;
+}
+
+.nine {
+  width: 200px;
+}
+
+/***************** Last section *******************/
+
+.last-panel {
+  background-color: #131a22;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.first-line p {
+  cursor: pointer;
+}
+
+.first-line p span:hover {
+  text-decoration: underline;
+  transition: all 0.15s;
+}
+
+.first-line .spant {
+  margin-left: 8px;
+}
+
+.first-line .spant:hover {
+  text-decoration: underline;
+  transition: all 0.15s;
+}
+
+.sec-line p .spanoo {
+  font-size: 10px;
+}
+
+.sec-line {
+  margin-top: 5px;
+}
